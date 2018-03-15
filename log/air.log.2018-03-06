@@ -1,0 +1,38 @@
+06.03.2018 19:21:22 [main] INFO  Func  - Starting program
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Сортировка
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP4 Дальность полёта 1 Топливо: 33
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP2 Дальность полёта 3 Топливо: 20
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP1 Дальность полёта 53 Топливо: 10
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP5 Дальность полёта 113 Топливо: 12
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP3 Дальность полёта 153 Топливо: 11
+06.03.2018 19:21:22 [main] INFO  диспетчер.dispatcher  - Поиск
+06.03.2018 19:21:28 [main] INFO  диспетчер.dispatcher  - Топливо>12
+06.03.2018 19:21:28 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP4 Дальность полёта 1 Топливо: 33
+06.03.2018 19:21:28 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP2 Дальность полёта 3 Топливо: 20
+06.03.2018 19:21:28 [main] INFO  диспетчер.dispatcher  - Сумарная грузаподёмность самалётов: 2180
+06.03.2018 19:21:28 [main] INFO  диспетчер.dispatcher  - Сумарное количество мест в самалётах 370
+06.03.2018 19:21:28 [main] INFO  диспетчер.dispatcher  - Сумарное количество мест в самалётах 370
+06.03.2018 19:29:48 [main] INFO  Func  - Starting program
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Сортировка
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP4 Дальность полёта 1 Топливо: 33
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP2 Дальность полёта 3 Топливо: 20
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP1 Дальность полёта 53 Топливо: 10
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP5 Дальность полёта 113 Топливо: 12
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP3 Дальность полёта 153 Топливо: 11
+06.03.2018 19:29:48 [main] INFO  диспетчер.dispatcher  - Поиск
+06.03.2018 19:29:53 [main] INFO  диспетчер.dispatcher  - Топливо>12
+06.03.2018 19:29:53 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP4 Дальность полёта 1 Топливо: 33
+06.03.2018 19:29:53 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP2 Дальность полёта 3 Топливо: 20
+06.03.2018 19:29:53 [main] INFO  диспетчер.dispatcher  - Сумарная грузаподёмность самалётов: 2180
+06.03.2018 19:29:53 [main] INFO  диспетчер.dispatcher  - Сумарное количество мест в самалётах 370
+06.03.2018 19:29:53 [main] INFO  диспетчер.dispatcher  - Сумарное количество мест в самалётах 370
