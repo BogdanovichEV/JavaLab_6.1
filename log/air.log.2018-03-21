@@ -1,0 +1,13 @@
+21.03.2018 17:01:09 [main] INFO  Func  - Starting program
+21.03.2018 17:01:10 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+21.03.2018 17:01:10 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+21.03.2018 17:01:10 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+21.03.2018 17:01:10 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+21.03.2018 17:01:10 [main] INFO  диспетчер.dispatcher  - Элемент добавлен
+21.03.2018 17:01:11 [main] INFO  диспетчер.dispatcher  - Сортировка
+21.03.2018 17:01:11 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP4 Дальность полёта 1 Топливо: 33
+21.03.2018 17:01:11 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP2 Дальность полёта 3 Топливо: 20
+21.03.2018 17:01:11 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP1 Дальность полёта 53 Топливо: 10
+21.03.2018 17:01:11 [main] INFO  диспетчер.dispatcher  - Тип: CargoPlaneP3 Дальность полёта 53 Топливо: 11
+21.03.2018 17:01:11 [main] INFO  диспетчер.dispatcher  - Тип: PassengerPlaneP5 Дальность полёта 113 Топливо: 12
+21.03.2018 17:01:11 [main] INFO  диспетчер.dispatcher  - Поиск

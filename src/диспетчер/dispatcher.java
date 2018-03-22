@@ -5,9 +5,16 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Collections;
 import java.util.Comparator;
-
+import java.io.*;
 import диспетчер.InterfaceDispatcher.workDispatcher;
+import диспетчер.dispatcher;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name="Planes")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class dispatcher  extends airlineBel implements workDispatcher
 {
     private static final Logger LOG = Logger.getLogger(dispatcher.class);
@@ -21,7 +28,13 @@ public class dispatcher  extends airlineBel implements workDispatcher
 
     }
 
+@XmlElement(name="Plane")
     ArrayList<Plane> obj=new ArrayList<Plane>();
+
+    public ArrayList<Plane> getObj() {
+        return obj;
+    }
+
     //ArrayList<> obj1=new ArrayList<Plane>();
      public void addPlane(Plane ob)
     {
@@ -29,6 +42,7 @@ public class dispatcher  extends airlineBel implements workDispatcher
         LOG.info("Элемент добавлен");
         //System.out.println("Элемент добавлен");
     }
+
     public void sort()
     {
         Collections.sort(obj, new Comparator<Plane>() {

@@ -3,7 +3,7 @@ import авиакомпания.BEL_and_Rus.Belairline;
 import авиакомпания.BEL_and_Rus.chName;
 import авиакомпания.characteristics.characteristicsPlane;
 import авиакомпания.factory.abstractFactory;
-
+import java.io.*;
 public class airlineBel extends abstractFactory
 {
     public Plane  plane1;
@@ -39,32 +39,53 @@ public class airlineBel extends abstractFactory
         Name = name;
     }
     private String Name;
-    public  int all_gruth;
-    public  int all_vmes;
+    public  static int all_gruth;
+    public  static int all_vmes;
     public String type;
 
-    public class Plane
+    public static class Plane implements Serializable
     {
-         int ves;
-         int vmes;
+        public int ves;
+        public int vmes;
         public int dist;
-        //топливо
         public int Fuel;
-        private String TypeName;
         public String type;
+        public String TypeName;
+
         public Plane()
         {
 
         }
-         public Plane(String type,String name,int gruth,int vmes,int dist,int Fuel)
-         {
-             this.type=type;
-             this.TypeName=name;
-             all_gruth+=gruth;
-             all_vmes+=vmes;
-             this.dist=dist;
-             this.Fuel=Fuel;
-         }
+
+        public Plane(String type, String name, int gruth, int vmes, int dist, int Fuel) {
+            this.type = type;
+            this.TypeName = name;
+            all_gruth += gruth;
+            all_vmes += vmes;
+            this.dist = dist;
+            this.Fuel = Fuel;
+        }
+        public void setVes(int ves) {
+            this.ves = ves;
+        }
+
+        public String getTypeName() {
+            return TypeName;
+        }
+        public void setVmes(int vmes) {
+            this.vmes = vmes;
+        }
+
+        public int GetVes()
+        {
+            return ves;
+        }
+
+        public String GetType()
+        {
+            return  type;
+        }
+
          public String ShowName()
          {
              return TypeName;
@@ -74,13 +95,24 @@ public class airlineBel extends abstractFactory
             return dist;
         }
 
-        public double Getdistanse() {
-            return dist;
-        }
-
-
         public int getFuel() {
             return Fuel;
+        }
+
+        public void setDist(Integer dist) {
+            this.dist = dist;
+        }
+
+        public void setFuel(Integer Fuel) {
+            this.Fuel = Fuel;
+        }
+
+        public void setTypeName(String TypeName) {
+            this.TypeName = TypeName;
+        }
+
+        public void setType(String type) {
+            this.type = type;
         }
     }
 }
