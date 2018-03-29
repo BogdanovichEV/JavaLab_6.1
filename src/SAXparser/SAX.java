@@ -9,14 +9,13 @@ import java.util.Comparator;
 
 public class SAX extends DefaultHandler{
 
-    public ArrayList<airlineBel.Plane> list=new ArrayList<>();
+    public ArrayList<airlineBel.Plane> list=new ArrayList<airlineBel.Plane>();
     airlineBel.Plane plane;
     String thisElement = "";
 
     public void sort()
     {
         Collections.sort(list, new Comparator<airlineBel.Plane>() {
-            @Override
             public int compare(airlineBel.Plane o1, airlineBel.Plane o2) {
                 if(o1.dist==o2.dist) return 0;
                 else

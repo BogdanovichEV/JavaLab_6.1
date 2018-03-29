@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class dispatcher  extends airlineBel implements workDispatcher
 {
-    private static final Logger LOG = Logger.getLogger(dispatcher.class);
+    //private static final Logger LOG = Logger.getLogger(dispatcher.class);
     private static final dispatcher _instanse=new dispatcher();
     public static dispatcher get_instanse()
     {
@@ -39,7 +39,7 @@ public class dispatcher  extends airlineBel implements workDispatcher
      public void addPlane(Plane ob)
     {
         obj.add(ob);
-        LOG.info("Элемент добавлен");
+        //LOG.info("Элемент добавлен");
         //System.out.println("Элемент добавлен");
     }
 
@@ -60,33 +60,33 @@ public class dispatcher  extends airlineBel implements workDispatcher
     }
     public void ShowSort()
     {
-        LOG.info("Сортировка");
-        //System.out.println("Сортировка");
+       // LOG.info("Сортировка");
+        System.out.println("Сортировка");
         for (Plane p: obj)
         {
-            LOG.info("Тип: "+p.type+p.ShowName()+" Дальность полёта "+p.dist +" Топливо: "+p.getFuel());
-            //System.out.println("Тип: "+p.type+p.ShowName()+" Дальность полёта "+p.dist +" Топливо: "+p.getFuel());
+           // LOG.info("Тип: "+p.type+p.ShowName()+" Дальность полёта "+p.dist +" Топливо: "+p.getFuel());
+            System.out.println("Тип: "+p.type+p.ShowName()+" Дальность полёта "+p.dist +" Топливо: "+p.getFuel());
         }
     }
     public void ShowZapros()
     {
         try {
         Scanner in=new Scanner(System.in);
-        LOG.info("Поиск");
+        //LOG.info("Поиск");
         System.out.println("Поиск");
         System.out.println("Введите количество топлива");
         int i=in.nextInt();
-        LOG.info("Топливо>"+i);
+        //LOG.info("Топливо>"+i);
         for (Plane p: obj)
         {
                 if(i<=0)
                 {
-                    LOG.info("Количество топлива должно быть больше 0");
+          //          LOG.info("Количество топлива должно быть больше 0");
                     throw new Exception("Количество топлива должно быть больше 0");
                 }
                 if (p.getFuel() > i)
-                    LOG.info("Тип: " + p.type + p.ShowName() + " Дальность полёта " + p.dist + " Топливо: " + p.getFuel());
-        //            System.out.println("Тип: " + p.type + p.ShowName() + " Дальность полёта " + p.dist + " Топливо: " + p.getFuel());
+            //        LOG.info("Тип: " + p.type + p.ShowName() + " Дальность полёта " + p.dist + " Топливо: " + p.getFuel());
+                    System.out.println("Тип: " + p.type + p.ShowName() + " Дальность полёта " + p.dist + " Топливо: " + p.getFuel());
         }
         }
             catch (Exception ex)
@@ -108,13 +108,13 @@ public class dispatcher  extends airlineBel implements workDispatcher
 
     @Override
     public void all_Vmes() {
-        LOG.info("Сумарное количество мест в самалётах "+all_vmes);
-         //System.out.println("Сумарное количество мест в самалётах "+all_vmes);
+        //LOG.info("Сумарное количество мест в самалётах "+all_vmes);
+         System.out.println("Сумарное количество мест в самалётах "+all_vmes);
     }
 
     @Override
     public void all_Gruth() {
-        LOG.info("Сумарная грузаподёмность самалётов: "+all_gruth);
-        //System.out.println("Сумарная грузаподёмность самалётов: "+all_gruth);
+        //LOG.info("Сумарная грузаподёмность самалётов: "+all_gruth);
+        System.out.println("Сумарная грузаподёмность самалётов: "+all_gruth);
     }
 }
