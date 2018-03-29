@@ -1,0 +1,1 @@
+jar cfm jarexample.jar jexample.mf *.class
